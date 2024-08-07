@@ -1,9 +1,150 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="第 1 页" id="L7ALKmF4uk7rLEOrv7Fg">
-    <mxGraphModel>
+    <mxGraphModel dx="1114" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hkgGiY7dyy34-9UkWXDh-1" target="hkgGiY7dyy34-9UkWXDh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-4" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hkgGiY7dyy34-9UkWXDh-3">
+          <mxGeometry x="0.0193" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hkgGiY7dyy34-9UkWXDh-1" target="hkgGiY7dyy34-9UkWXDh-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-7" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hkgGiY7dyy34-9UkWXDh-6">
+          <mxGeometry x="-0.0266" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-1" value="搜索条件是否含标签" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="100" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-2" value="从elsaticsearch&lt;div&gt;查询数据&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="115" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hkgGiY7dyy34-9UkWXDh-8" target="hkgGiY7dyy34-9UkWXDh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-11" value="图片标签" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hkgGiY7dyy34-9UkWXDh-10">
+          <mxGeometry x="-0.2622" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hkgGiY7dyy34-9UkWXDh-8" target="hkgGiY7dyy34-9UkWXDh-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-14" value="文本标签" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hkgGiY7dyy34-9UkWXDh-13">
+          <mxGeometry x="-0.6266" y="4" relative="1" as="geometry">
+            <mxPoint x="-4" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-8" value="判断标签类型" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="250" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-9" value="md5编码图片内容为key" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="460" y="270" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hkgGiY7dyy34-9UkWXDh-12" target="hkgGiY7dyy34-9UkWXDh-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-12" value="以标签内容为key" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="60" y="270" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hkgGiY7dyy34-9UkWXDh-16" target="hkgGiY7dyy34-9UkWXDh-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-22" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hkgGiY7dyy34-9UkWXDh-21">
+          <mxGeometry x="-0.1081" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hkgGiY7dyy34-9UkWXDh-16" target="hkgGiY7dyy34-9UkWXDh-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-16" value="查询redis中是否存在key的数据" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="480" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hkgGiY7dyy34-9UkWXDh-9" target="hkgGiY7dyy34-9UkWXDh-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="430" />
+              <mxPoint x="310" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hkgGiY7dyy34-9UkWXDh-20" target="hkgGiY7dyy34-9UkWXDh-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-20" value="直接从redis获取标签向量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="497.5" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hkgGiY7dyy34-9UkWXDh-26" target="hkgGiY7dyy34-9UkWXDh-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-32" value="文本" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hkgGiY7dyy34-9UkWXDh-29">
+          <mxGeometry x="-0.0225" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hkgGiY7dyy34-9UkWXDh-26" target="hkgGiY7dyy34-9UkWXDh-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-33" value="图片" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hkgGiY7dyy34-9UkWXDh-31">
+          <mxGeometry x="-0.2221" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-26" value="判断标签类型" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="630" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hkgGiY7dyy34-9UkWXDh-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="696.25" as="sourcePoint" />
+            <mxPoint x="260" y="953.75" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="715" />
+              <mxPoint x="140" y="954" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-28" value="调用text2word模型向量化标签" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="645" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hkgGiY7dyy34-9UkWXDh-30" target="hkgGiY7dyy34-9UkWXDh-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-30" value="调用clip模型向量化标签" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="790" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hkgGiY7dyy34-9UkWXDh-34" target="hkgGiY7dyy34-9UkWXDh-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-34" value="将标签向量存储到redis" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="920" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hkgGiY7dyy34-9UkWXDh-40" target="hkgGiY7dyy34-9UkWXDh-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-40" value="使用标签向量从chromdb中进行相似性检索" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="435" y="915" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-44" value="&lt;span style=&quot;font-size: 12pt; line-height: 150%;&quot; lang=&quot;EN-US&quot;&gt;使用bge-reranker-large模型做相似度再评估排序去前5条&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="905" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hkgGiY7dyy34-9UkWXDh-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.549;entryY=0.968;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hkgGiY7dyy34-9UkWXDh-44" target="hkgGiY7dyy34-9UkWXDh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
