@@ -1,9 +1,65 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="第 1 页" id="C562E1UyAb4BaIogjbPI">
-    <mxGraphModel>
+    <mxGraphModel dx="1114" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3TOOckupEh_AKTvw8bHe-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3TOOckupEh_AKTvw8bHe-2" target="3TOOckupEh_AKTvw8bHe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3TOOckupEh_AKTvw8bHe-2" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3TOOckupEh_AKTvw8bHe-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3TOOckupEh_AKTvw8bHe-3" target="3TOOckupEh_AKTvw8bHe-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3TOOckupEh_AKTvw8bHe-3" value="输入目录基本信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="190" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3TOOckupEh_AKTvw8bHe-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3TOOckupEh_AKTvw8bHe-5" target="3TOOckupEh_AKTvw8bHe-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3TOOckupEh_AKTvw8bHe-9" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3TOOckupEh_AKTvw8bHe-8">
+          <mxGeometry x="0.1419" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3TOOckupEh_AKTvw8bHe-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3TOOckupEh_AKTvw8bHe-5" target="3TOOckupEh_AKTvw8bHe-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3TOOckupEh_AKTvw8bHe-18" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3TOOckupEh_AKTvw8bHe-11">
+          <mxGeometry x="-0.1132" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3TOOckupEh_AKTvw8bHe-5" value="是否新建表标签" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3TOOckupEh_AKTvw8bHe-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3TOOckupEh_AKTvw8bHe-7" target="3TOOckupEh_AKTvw8bHe-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3TOOckupEh_AKTvw8bHe-7" value="执行新建标签的流程" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3TOOckupEh_AKTvw8bHe-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3TOOckupEh_AKTvw8bHe-10" target="3TOOckupEh_AKTvw8bHe-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3TOOckupEh_AKTvw8bHe-10" value="目录信息保存到mysql" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="430" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3TOOckupEh_AKTvw8bHe-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3TOOckupEh_AKTvw8bHe-14" target="3TOOckupEh_AKTvw8bHe-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3TOOckupEh_AKTvw8bHe-14" value="目录信息保存到elasticsearch" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="335" y="520" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3TOOckupEh_AKTvw8bHe-16" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="600" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
